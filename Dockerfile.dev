@@ -1,5 +1,7 @@
 FROM nginx:alpine
 
+USER root
+
 COPY index.html /usr/share/nginx/html
 
 USER 1001
